@@ -6,9 +6,9 @@ const getCngFare = (distance, isNight = false, waitingMinutes = 0) => {
     fare += getDistance;
   }
 
-  let waringFare = waitingMinites * 2;
+  let waitingFare = waitingMinutes * 2;
 
-  fare += waringFare;
+  fare += waitingFare;
 
   if (isNight) {
     fare *= 1.2;

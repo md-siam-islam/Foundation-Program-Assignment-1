@@ -1,7 +1,7 @@
 const getDayType = (day) => {
   let dayName = day.trim().toLowerCase();
 
-  switch (dayName){
+  switch (dayName) {
     case "friday":
     case "saturday":
       return "Weekend";
